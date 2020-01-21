@@ -7,11 +7,12 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Whiskey Drop | Taste a new whiskey every month</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/d9e4c6563b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<!--nav bar -->
+	<!--nav bar -->
 	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
 
 		<a href="/" class="navbar-brand">Whiskey Drop</a>
@@ -19,7 +20,8 @@
 		<ul class="navbar=nav mr-auto">
 			<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
 			<li class="active nav-item mr-2"><a class="nav-link" href="/about">About us</a></li>
-            <li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign in / Sign up</a></li>
+			<li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign in / Sign up</a>
+			</li>
 		</ul>
 
 		<div class="d-none d-md-block">
@@ -28,10 +30,20 @@
 		</div>
 
 	</nav>
-<!--nav end-->
-    
-<!-- callout -->
+	<!--nav end-->
+
+
 	<article class="container mt-3">
+
+		<!-- alert-->
+		<div class="row">
+		   <div class="col-12">
+            <div class="alert alert-warning text-center"><strong>Sale Now on | 12 months for the price of 6!<i><span><br>Free next day delivery on first order</i></span></strong></div>
+		  </div>
+		</div>
+        <!--alert end-->
+
+		<!-- callout-->
 		<div class="row">
 			<div class="col-12">
 				<section class="callout jumbotron text-center">
@@ -41,19 +53,21 @@
 
 					<p class="lead">Sign up today to start receiving the worlds finest whiskey every month.
 						<s class="d-none d-sm-inline">£19.99</s>
-                        <span class="d-inline d-sm-non"><br></span> 
-                        <div class=""><strong><mark>The first month is free!</mark></strong><div></p>
+						<span class="d-inline d-sm-non"><br></span>
+						<div class=""><strong><mark>The first month is free!</mark></strong>
+							<div>
+					</p>
 					<p class="text-muted"><small>"Over 18's Only -- Drink responsibly"</small></p>
 					<button class="btn btn-info btn-lg">Sign up!</button>
 
 				</section>
 			</div>
 		</div>
-    <!--callout end-->
+		<!--callout end-->
 
 		<hr>
 
-    <!--quotes-->
+		<!--quotes-->
 		<section class="quotes">
 
 			<div class="row">
@@ -64,25 +78,36 @@
 
 			<div class="row">
 				<div class="col-12 col-md-6">
-					<blockquote class="blockquote">
-						<p>I was very impressed with the whiskey. Very smooth and satifying!</p>
-						<p>Becky Malgrove</p>
-					</blockquote>
-				</div>
+					<div class="media">
 
-				<div class="col-12 col-md-6">
-					<blockquote class="blockquote">
-						<p>I'm pretty wavey as I'm typing this, this service must work. Thanks!</p>
-						<p>John o'beckett</p>
-					</blockquote>
-				</div>
-			</div>
+						<div class="d-none d-sm-block">
+							<img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                    </div>
+							<blockquote class="blockquote">
+								<p>I was very impressed with the whiskey. Very smooth and satisfying!</p>
+								<p>Becky Malgrove</p>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6">
+						<div class="media">
+							<div class="d-none d-sm-block">
+								<img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                    </div>
+								<blockquote class="blockquote">
+									<p>I'm pretty wavey as I'm typing this, this service must work. Thanks!</p>
+									<p>John o'beckett</p>
+								</blockquote>
+							</div>
+						</div>
+					</div>
 		</section>
-    <!-- quotes end-->
+		<!-- quotes end-->
 
 		<hr>
 
-    <!--features-->
+		<!--features-->
 		<section class="features">
 
 			<div class="row">
@@ -94,15 +119,16 @@
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="feature">
-						<h3>Delivery</h3>
-						<p>Instant next day delivery on your first order!</p>
+						<h3><i class="fas fa-shuttle-van d-none d-sm-block"></i> Delivery
+							<span class="badge badge-success">New!</span></h3>
+						<p>Next day delivery on your first order!</p>
 						<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
 					</div>
 				</div>
 
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="feature">
-						<h3>Quality</h3>
+						<h3><i class="far fa-gem d-none d-sm-block"></i> Quality</h3>
 						<p>We have the finest quality whiskeys proven by independant testers.</p>
 						<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
 					</div>
@@ -110,7 +136,7 @@
 
 				<div class="col-12 d-md-none d-lg-block col-lg-4">
 					<div class="feature">
-						<h3>Standard</h3>
+						<h3><i class="fas fa-clipboard-check d-none d-sm-block"></i> Standards</h3>
 						<p>We offer high standards of customer service as well as product. When it comes to Whiskey
 							drop,
 							you're only ever a drop away from perfection.</p>
@@ -119,7 +145,7 @@
 				</div>
 			</div>
 		</section>
-    <!--features end-->
+		<!--features end-->
 
 	</article>
 </body>
