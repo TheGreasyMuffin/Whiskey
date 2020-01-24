@@ -21,7 +21,9 @@ body {
   justify-content: center;
 
   position: relative;
-   
+
+ margin-bottom: 25px;
+ margin-right: 25px;
 }
 
 .lead {
@@ -106,9 +108,66 @@ background-color: rgba(0,0,0,0.0.15)
 
 .alert-warning {
 
-    background-color: rgba(214, 236, 10, 0.747)
+    background-color: rgba(7, 213, 250, 0.575)
 }
 /*alert end*/
+
+/*quotes*/
+/*quotes end*/
+
+/*features*/
+.feature {
+    text-align: center;
+}
+
+.feature i {
+
+margin-bottom: 20px;
+line-height: 45px;
+font-size: 45px;    
+}
+/*features end*/
+
+/*text*/
+.text-color--grey {
+
+color: grey;    
+}
+
+.text-color--black {
+
+color: black;
+}
+
+.text-color--white {
+
+color: white;
+}
+
+.text-font--alata {
+    
+    font-family: 'Alata', sans-serif;
+}
+
+.text-font--opem {
+
+ font-family: 'Open Sans', sans-serif;   
+}
+/*text end*/
+
+/*wrappers*/
+.container-wrapper {
+
+
+}
+
+.container-wrapper--grey {
+
+    background-color: grey; 
+    width: 100%;
+    color: antiquewhite;
+}
+/*wrappers end*/
 
 /*containers end*/
 
@@ -135,6 +194,13 @@ color: white;
 /*jumbotron end*/
 
 /*dividers*/
+.block-divider{
+
+width: 100%;
+height: 30px;
+background-color: black;
+}
+
 .header-divider{
 
     margin-top: 1rem;
@@ -159,16 +225,27 @@ color: white;
 
 .basic-divider {
 
-    margin-top: 0;
-    margin-bottom: 1rem;
-    border: 0;
+    margin-top: 0.5px;
+    margin-bottom: 0;
+    border: 1px;
     width: 120px;
-    height: 0.5px;
+    height: 1px;
     background-color: rgba(52, 73, 78, 0.671);
+    border-color: white;
 }
 /*dividers end*/
 
 /*buttons*/
+
+.feature .btn {
+ 
+ border-color: grey;
+  background-color: grey;
+  color: rgb(255, 255, 255);  
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+}
 
 .btn--cta {
 
@@ -196,3 +273,13 @@ color: white;
 }
 
 /*buttons end*/
+
+/*page headers */
+.page-header {
+
+margin-top: 25px;
+margin-bottom: 15px;
+
+}
+
+/*page headers end */
