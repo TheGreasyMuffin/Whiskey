@@ -69,9 +69,47 @@ background-color: rgba(0,0,0,0.0.15)
 }
 
 .navbar .navbar-toggler {
-
-    border: 0;
+ 
+   border: 0;
 }
+
+.navbar-brand {
+  
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+.navbar .navbar-nav a {
+
+    font-weight: bold;
+
+}
+/*nav bar end*/
+
+/*alert*/
+.alert-container {
+
+
+}
+
+.site-wide-alert {
+
+    margin-bottom: 0;
+}
+
+.alert-warning {
+
+    background-color: rgba(214, 236, 10, 0.747)
+}
+/*alert end*/
+
 /*containers end*/
 
 /*jumbotron*/
@@ -118,6 +156,16 @@ color: white;
     height: 0.5px;
     background-color: #71c9d8;
 }
+
+.basic-divider {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 120px;
+    height: 0.5px;
+    background-color: rgba(52, 73, 78, 0.671);
+}
 /*dividers end*/
 
 /*buttons*/
@@ -126,7 +174,7 @@ color: white;
 
     font-weight: bold;
     border-radius: 25px;
-    width: 150px;
+    width: 160px;
 }
 
 .btn--blue {
