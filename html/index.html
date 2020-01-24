@@ -8,6 +8,7 @@
 	<title>Whiskey Drop | Taste a new whiskey every month</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/d9e4c6563b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -24,17 +25,17 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
 				<li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
-                <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Whiskeys
         </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Irish</a>
-                        <a class="dropdown-item" href="#">Scotch</a>
-                        <a class="dropdown-item" href="#">Japanese</a>
-                        <a class="dropdown-item" href="#">American</a>
-                    </div>
-                </li>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Irish</a>
+						<a class="dropdown-item" href="#">Scotch</a>
+						<a class="dropdown-item" href="#">Japanese</a>
+						<a class="dropdown-item" href="#">American</a>
+					</div>
+				</li>
 
 				<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
 			</ul>
@@ -49,25 +50,27 @@
 	<!--nav end-->
 
 
-	<article class="container mt-3">
+	<div class="container-fluid alert-container">
 
 		<!-- alert-->
-		<div class="row"> 
+		<div class="row">
 			<div class="col-12 d-none d-sm-block">
 				<div class="alert alert-warning text-center">
 					<strong>Sale get half price on 12 months subscription! <a href="">Click for details</a><i><span><br>Free next day delivery on first order</i></span></strong>
 				</div>
 			</div>
 		</div>
-		<!--alert end-->
+	</div>
+	<!--alert end-->
 
-		<!-- callout-->
+	<!-- callout-->
+	<div class="container-fluid callout-container">
 		<div class="row">
 			<div class="col-12">
 				<section class="callout jumbotron text-center">
 
 
-					<h1>The finest Wiskeys delivering to your doorstep!</h1>
+					<h1 class="jumbotron-header">The finest Wiskeys delivering to your doorstep!</h1>
 
 					<p class="lead">Sign up today to start receiving the worlds finest whiskey every month.
 						<s class="d-none d-sm-inline">£19.99</s>
@@ -79,40 +82,40 @@
 					<button class="btn btn-info btn-lg">Sign up!</button>
 
 				</section>
-			</div>
-		</div>
-		<!--callout end-->
-
-		<hr>
-
-		<!--quotes-->
-		<section class="quotes">
-
-			<div class="row">
-				<div class="col-12 my-5">
-					<h2 class="text-uppercase">Satisfied Customers:</h2>
+				</div>
 				</div>
 			</div>
+			<!--callout end-->
 
-			<div class="row">
-				<div class="col-12 col-md-6">
-					<div class="media">
+			<!--quotes-->
+			<div class="container quotes-container">
+				<section class="quotes">
 
-						<div class="d-none d-sm-block">
-							<img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
-                    </div>
-							<blockquote class="blockquote">
-								<p>I was very impressed with the whiskey. Very smooth and satisfying!</p>
-								<p>Becky Malgrove</p>
-							</blockquote>
+					<div class="row">
+						<div class="col-12 my-5">
+							<h2 class="text-uppercase">Satisfied Customers:</h2>
 						</div>
 					</div>
 
-					<div class="col-12 col-md-6">
-						<div class="media">
-							<div class="d-none d-sm-block">
-								<img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
-                    </div>
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<div class="media">
+
+								<div class="d-none d-sm-block">
+									<img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+								</div>
+								<blockquote class="blockquote">
+									<p>I was very impressed with the whiskey. Very smooth and satisfying!</p>
+									<p>Becky Malgrove</p>
+								</blockquote>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6">
+							<div class="media">
+								<div class="d-none d-sm-block">
+									<img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+								</div>
 								<blockquote class="blockquote">
 									<p>I'm pretty wavey as I'm typing this, this service must work. Thanks!</p>
 									<p>John o'beckett</p>
@@ -120,62 +123,57 @@
 							</div>
 						</div>
 					</div>
-		</section>
-		<!-- quotes end-->
-
-		<hr>
-
-		<!--features-->
-		<section class="features">
-
-			<div class="row">
-				<div class="col-12 my-5">
-					<h2 class="text-uppercase">Features:</h2>
-				</div>
+				</section>
 			</div>
+			<!-- quotes end-->
 
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3><i class="fas fa-shuttle-van d-none d-sm-block"></i> Delivery
-							<span class="badge badge-success">New!</span></h3>
-						<p>Next day delivery on your first order!</p>
-						<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
-					</div>
-				</div>
+			<!--features-->
+			<div class="container features-container">
+				<section class="features">
 
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3><i class="far fa-gem d-none d-sm-block"></i> Quality</h3>
-						<p>We have the finest quality whiskeys proven by independant testers.</p>
-						<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+					<div class="row">
+						<div class="col-12 my-5">
+							<h2 class="text-uppercase">Features:</h2>
+						</div>
 					</div>
-				</div>
 
-				<div class="col-12 d-md-none d-lg-block col-lg-4">
-					<div class="feature">
-						<h3><i class="fas fa-clipboard-check d-none d-sm-block"></i> Standards</h3>
-						<p>We offer high standards of customer service as well as product. When it comes to Whiskey
-							drop,
-							you're only ever a drop away from perfection.</p>
-						<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="feature">
+								<h3><i class="fas fa-shuttle-van d-none d-sm-block"></i> Delivery
+									<span class="badge badge-success">New!</span></h3>
+								<p>Next day delivery on your first order!</p>
+								<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="feature">
+								<h3><i class="far fa-gem d-none d-sm-block"></i> Quality</h3>
+								<p>We have the finest quality whiskeys proven by independant testers.</p>
+								<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+							</div>
+						</div>
+
+						<div class="col-12 d-md-none d-lg-block col-lg-4">
+							<div class="feature">
+								<h3><i class="fas fa-clipboard-check d-none d-sm-block"></i> Standards</h3>
+								<p>We offer high standards of customer service as well as product. When it comes to Whiskey drop, you're only ever a drop away from perfection.</p>
+								<p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</section>
 			</div>
-		</section>
-		<!--features end-->
+			<!--features end-->
 
-	</article>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+			</script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+			</script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+			</script>
 
 </body>
 

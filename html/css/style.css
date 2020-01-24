@@ -3,3 +3,47 @@ body {
     font-family: 'Signika', sans-serif;
 
 }
+
+/*containers*/
+.callout-container {
+
+   height: 100vh;
+    background: url(../images/whiskey-background.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+.lead {
+    
+    color: 	#C0C0C0;
+}
+/*containers end*/
+
+/*jumbotron*/
+.jumbotron {
+
+    background-color: transparent;
+}
+
+.jumbotron-header {
+
+    color:	#DCDCDC;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+
+font-size: 80%;
+font-style: italic;
+color: white;
+
+}
+/*jumbotron end*/
